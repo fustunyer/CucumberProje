@@ -1,36 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="153.488">
-<testcase classname="Amazonda Urun Arama" name="TC07_kullanici amazonda dropdown ve aramakutusu kullanarak arama yapar" time="66.061">
-<system-out><![CDATA[Given kullanici "https://amazon.com" sayfasina gider........................passed
-And kullanici dropdownda "Automotive" secer.................................passed
-And kullanici aramakutusuna "phone holder" yazar ve arar....................passed
-Then kullanici sonuc sayisini ekrana yazar..................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Amazonda Urun Arama" name="TC07_kullanici amazonda dropdown ve aramakutusu kullanarak arama yapar 2" time="32.332">
-<system-out><![CDATA[Given kullanici "https://amazon.com" sayfasina gider........................passed
-And kullanici dropdownda "Baby" secer.......................................passed
-And kullanici aramakutusuna "stroller" yazar ve arar........................passed
-Then kullanici sonuc sayisini ekrana yazar..................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Amazonda Urun Arama" name="TC07_kullanici amazonda dropdown ve aramakutusu kullanarak arama yapar 3" time="24.914">
-<system-out><![CDATA[Given kullanici "https://amazon.com" sayfasina gider........................passed
-And kullanici dropdownda "Books" secer......................................passed
-And kullanici aramakutusuna "miserables" yazar ve arar......................passed
-Then kullanici sonuc sayisini ekrana yazar..................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Amazon arama" name="TC02_kullanici amazonda arama yapar" time="19.249">
-<system-out><![CDATA[Given kullanici amazon sayfasina gider......................................passed
-And kullanici aramakutusunua headphones yazar ve arar.......................passed
-Then kullanici sonuc sayisini ekrana yazdirir...............................passed
-]]></system-out>
-</testcase>
-<testcase classname="Amazon Urun Arama" name="TC04_kullanici amazonda urun aramasi yapar" time="10.142">
-<system-out><![CDATA[Given kullanici amazon sayfasina gider......................................passed
-And kullanici aramakutusuna "drone" yazar ve arar...........................passed
-Then kullanici sonuc sayisini ekrana yazdirir...............................passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="6.717">
+<testcase classname="Veri Okuma" name="kullanici hotel tablosundaki verileri okur" time="5.491">
+<system-out><![CDATA[Given kullanici veritabanina baglanir.......................................passed
+And kullanici "tHOTEL" tablosundaki "Name" verilerini alir..................passed
+And kullanici "Name" sutunundaki verileri okur..............................passed
 ]]></system-out>
 </testcase>
 </testsuite>
